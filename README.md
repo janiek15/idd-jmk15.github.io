@@ -23,4 +23,4 @@
 - Other information
   - Program syllabus by semester
 - Footer
-  - Social media links, policies, contact links, copyright tag
+  - Social media links, policies, contact links, copyright tag.
