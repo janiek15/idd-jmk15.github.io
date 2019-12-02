@@ -26,7 +26,7 @@ html{
   .w3-top{
     top: 0;
   }
-  .w3-top, .w3-bottom{
+  .w3-top {
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -67,8 +67,8 @@ html{
     white-space: nowrap;
   }
   .logo img{
-    width: ;
-    height: 60px;
+    width: 4.375em;
+    height: 3.125em;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -175,11 +175,7 @@ html{
     border-bottom: 0.063em solid
     #ccc !important;
   }
-  .w3-container:after, .w3-container:before, .w3-panel:after, .w3-panel:before, .w3-row:after, .w3-row:before, .w3-row-padding:after, w3-row-padding:before, .w3-cell-row:before, .w3-cell-row:after, .w3-clear:after, .w3-clear:before, .w3-bar:before, .w3-bar:after{
-    content:"";
-    display: table;
-    clear: both;
-  }
+
   .w3-row-padding, .w3-row-padding>.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird, .w3-row-padding>.w3-threequarter, .w3-row-padding>.w3-threequarter, .w3-row-padding> .w3-quarter, .w3-row-padding>.w3-col{
     padding: 0 0.5em;
   }
@@ -286,7 +282,82 @@ html{
     margin-inline-start: 0em;
     margin-inline-end: 0em;
   }
+  .semester {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
   
+  .active, .semester:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  .column {
+    float: left;
+    width: 33%;
+  }
+
+
+
+
+footer .container{	
+  padding: 20px;	
+  background: #005293;
+}
+footer ul{	padding-left: 0;	list-style: none;}
+
+
+.footer-copyright {	background:#005293;	padding: 10px;}
+.footer-copyright p {	color: black; text-align: center; font-size: 12px;}
+
+.footer-top{	background: #fff;	padding-bottom: 10px;	margin-bottom: 0px;	border-bottom: 3px solid #222;}
+
+
+.widget{	padding: 20px;	margin-bottom: 40px;}
+.widget.widget-last{	margin-bottom: 0px;}
+.widget.no-box{	padding: 0;	background-color: transparent;	margin-bottom: 40px;
+	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
+.widget.subscribe p{	margin-bottom: 18px;}
+.widget li a{	color: #fff;}
+.widget li a:hover{	color: #4b92dc;}
+.widget-title {margin-bottom: 20px;}
+.widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
+.widget-title span::after {background: inherit;content: "";height: inherit;    position: absolute;top: -4px;width: 50%;}
+.widget-title.text-center span,.widget-title.text-center span::after {margin-left: auto;margin-right:auto;left: 0;right: 0;}
+.widget .badge{	float: right;	background: #7f7f7f;}
+
+.typo-light h1, 
+.typo-light h2, 
+.typo-light h3, 
+.typo-light h4, 
+.typo-light h5, 
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small{	color: #fff;}
+
+ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
+ul.social-footer2 li {display: inline-block;padding: 0;}
+ul.social-footer2 li a:hover {background-color:#ff8d1e;}
+ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center;}
+.btn{ color:#fff;}
+.btn:hover, .btn:focus, .btn.active {background: #ff8d1e;color: #fff;
+
+}
   @media (max-width: 600px){
   .w3-hide-small{
     display: none !important;}
@@ -297,3 +368,4 @@ html{
           background-color: red;
       }
   }
+
